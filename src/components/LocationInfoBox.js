@@ -2,8 +2,6 @@ import {useState, React} from 'react'
 
 const LocationInfoBox = ({ info }) => {
 
-    const [show, setShow] = useState(false)
-
     return (
         
         <div className="location-info">
@@ -14,8 +12,7 @@ const LocationInfoBox = ({ info }) => {
                 <li>ID: <strong>{info.id}</strong></li>
                 <li>TITLE: <strong>{info.title}</strong></li>
             </ul>
-            <button onClick={()=>setShow(true)}>Show</button>
-            <button onclick={()=>setShow(false)}>Hide</button>
+            
         </div>
 
 
