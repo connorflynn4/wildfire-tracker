@@ -56,7 +56,7 @@ body {
   right: 50px;
   width: 400px;
   min-height: 200px;
-  padding: 20xp;
+  padding: 20px;
   background-color: rgba(0,0,0,0.6);
   border-radius: 10px;
   font-size: 18px;
@@ -72,3 +72,9 @@ body {
   padding: 5px 0;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .location-info {
+  right: 30px;
+  width: 250px;
+  }
+}
